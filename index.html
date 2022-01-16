@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Shopee</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo.png">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -172,13 +173,36 @@
                   Trợ giúp
                 </a>
               </li>
-              <li
+              <!-- <li
                 class="header__navbar-item header__navbar-item--bold header__navbar-item--separate"
               >
                 Đăng ký
               </li>
               <li class="header__navbar-item header__navbar-item--bold">
                 Đăng nhập
+              </li> -->
+
+              <!-- USER  -->
+              <li class="header__navbar-item header__navbar-user">
+                <img src="./assets/img/avatar.png" alt="avatar" class="header__navbar-user-avatar">
+                <span class="header__navbar-user-name">Nguyen Chi Hien99</span>
+                <ul class="header__navbar-user-account">
+                  <li class="header__navbar-user-item">
+                    <a href="https://shopee.vn/user/account/profile" class="header__navbar-user-item-child">
+                      Tài khoản của tôi
+                    </a>
+                  </li>
+                  <li class="header__navbar-user-item">
+                    <a href="https://shopee.vn/user/purchase/" class="header__navbar-user-item-child">
+                      Đơn mua
+                    </a>
+                  </li>
+                  <li class="header__navbar-user-item">
+                    <a href="#" class="header__navbar-user-item-child">
+                      Đăng xuất
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </nav>
@@ -237,6 +261,82 @@
                 <div class="header-cart__list ">
                   <img src="./assets/img/no-cart.png" alt="no cart" class="header-cart__img">
                   <p class="header-cart__info">Chưa có sản phẩm</p>
+                  <!-- end no-cart  -->
+                  <!-- Start cart view list  -->
+                  <h4 class="header-cart__heading">Sản phẩm đã thêm</h4>
+                  <ul class="header-cart__list-item">
+                    <li class="header-cart__item">
+                      <img src="./assets/img/mỹpham.jfif" alt="dây đồng hồ" class="header-cart__item-img">
+                      <div class="header-cart__item-info">
+                        <div class="header-cart__item-head">
+                          <h5 class="header-cart__item-name">Dây da đồng hồ cao cấp </h5>
+                         <div class="header-cart__item-price-wrap">
+                          <span class="header-cart__item-price">150.000đ</span>
+                          <span class="header-cart__item-multiply">x</span>
+                          <span class="header-cart__item-qnt">1</span>
+                         </div>
+                        </div>
+                        <div class="header-cart__item-body">
+                          <span class="header-cart__item-description">Phân loại: Da</span>
+                          <span class="header-cart__item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="header-cart__item">
+                      <img src="./assets/img/mỹpham.jfif" alt="dây đồng hồ" class="header-cart__item-img">
+                      <div class="header-cart__item-info">
+                        <div class="header-cart__item-head">
+                          <h5 class="header-cart__item-name">Dây da đồng hồ cao cấp </h5>
+                         <div class="header-cart__item-price-wrap">
+                          <span class="header-cart__item-price">150.000đ</span>
+                          <span class="header-cart__item-multiply">x</span>
+                          <span class="header-cart__item-qnt">1</span>
+                         </div>
+                        </div>
+                        <div class="header-cart__item-body">
+                          <span class="header-cart__item-description">Phân loại: Da</span>
+                          <span class="header-cart__item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="header-cart__item">
+                      <img src="./assets/img/mỹpham.jfif" alt="dây đồng hồ" class="header-cart__item-img">
+                      <div class="header-cart__item-info">
+                        <div class="header-cart__item-head">
+                          <h5 class="header-cart__item-name">Dây da đồng hồ cao cấp </h5>
+                         <div class="header-cart__item-price-wrap">
+                          <span class="header-cart__item-price">150.000đ</span>
+                          <span class="header-cart__item-multiply">x</span>
+                          <span class="header-cart__item-qnt">1</span>
+                         </div>
+                        </div>
+                        <div class="header-cart__item-body">
+                          <span class="header-cart__item-description">Phân loại: Da</span>
+                          <span class="header-cart__item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="header-cart__item">
+                      <img src="./assets/img/mỹpham.jfif" alt="dây đồng hồ" class="header-cart__item-img">
+                      <div class="header-cart__item-info">
+                        <div class="header-cart__item-head">
+                          <h5 class="header-cart__item-name">Dây da đồng hồ cao cấp </h5>
+                         <div class="header-cart__item-price-wrap">
+                          <span class="header-cart__item-price">150.000đ</span>
+                          <span class="header-cart__item-multiply">x</span>
+                          <span class="header-cart__item-qnt">1</span>
+                         </div>
+                        </div>
+                        <div class="header-cart__item-body">
+                          <span class="header-cart__item-description">Phân loại: Da</span>
+                          <span class="header-cart__item-remove">Xóa</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="https://shopee.vn/cart" class="btn btn__view-cart btn--primary">Xem giỏ hàng</a>
+                  <!-- End cart view list  -->
+
                 </div>
               </div>
             </div>
