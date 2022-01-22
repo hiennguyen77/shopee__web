@@ -775,6 +775,8 @@
 .header-cart__list-item {
     padding-left: 0;
     list-style: none;
+    height: 56vh;
+    overflow-y: auto;
 }
 
 .header-cart__item {
@@ -812,6 +814,16 @@
     font-weight: 400;
     color: var(--text-color);
     margin: 0; 
+    line-height: 2rem;
+    max-height: 2rem;
+    overflow: hidden;
+    flex: 1;
+    text-align: left;
+    padding-right: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
 }
 
 .header-cart__item-price {
@@ -1222,3 +1234,73 @@ i.home-product-item__like-icon-fill  {
   
 }
 
+/* Pagination  */
+.home-product__pagination {
+    margin-top: 45px;
+    margin-bottom: 32px;
+}
+
+/* Footer  */
+.footer {
+    border-top: 4px solid var(--primary-color);
+    background-color: var(--white-color);
+}
+
+.footer__heading {
+    margin-top: 30px;
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    
+}
+.footer-list__item {
+
+}
+
+.footer-list__item-link {
+    text-decoration: none;
+    color: #737373;
+    line-height: 3rem;
+    align-items: center;
+    display: flex;
+}
+.footer-list__item-link:hover {
+    color: var(--primary-color);
+}
+
+
+.footer-list__item-icon {
+    margin-right: 8px;
+    font-size: 1.6rem;
+    margin-top: -1px;
+}
+
+.footer__download {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer__download-qr {
+   width: 80px;
+   /* object-fit: contain; */
+   border: 1px solid var(--border-color);
+
+}
+
+.footer__download-apps {
+   margin-left: 16px;
+}
+.footer__download-apps-img {
+    height: 20px;
+}
+
+.footer__download-apps-link {
+    color: transparent;
+    text-decoration: none;
+}
